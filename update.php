@@ -2,6 +2,10 @@
 include 'connect.php';
 
     $id=$_GET['uid'];
+   
+
+
+
     if(isset($_POST['update'])){
         $name=$_POST['name'];
         $email=$_POST['email'];
@@ -41,19 +45,19 @@ include 'connect.php';
         <form method="POST" >
             <div class="mb-3">
                 <label class="form-label"> Name</label>
-                <input type="text" class="form-control" name ="name" placeholder="Enter Name" autocomplete="off">
+                <input type="text" class="form-control" name ="name" placeholder="Enter Name" autocomplete="off" value="<?php echo $name ;?>">
             </div>
             <div class="mb-3">
                 <label class="form-label"> Email</label>
-                <input type="text" class="form-control" name ="email" placeholder="Enter email" autocomplete="off">
+                <input type="text" class="form-control" name ="email" placeholder="Enter email" autocomplete="off" value="<?php echo $email ;?>">
             </div>
             <div class="mb-3">
                 <label class="form-label"> Mobile</label>
-                <input type="text" class="form-control"name ="mobile" placeholder="Enter mobile" autocomplete="off">
+                <input type="text" class="form-control"name ="mobile" placeholder="Enter mobile" autocomplete="off" value="<?php echo $mobile ;?>">
             </div>
             <div class="mb-3">
                 <label class="form-label"> Password</label>
-                <input type="text" class="form-control" name ="password"placeholder="Enter password" autocomplete="off">
+                <input type="text" class="form-control" name ="password" placeholder="Enter password" autocomplete="off" value="<?php echo $password ;?>">
             </div>
 
 

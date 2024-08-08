@@ -1,8 +1,4 @@
-# Basic PHP CRUD Operations
 
-# Overview
-
-This repository contains a basic PHP application for performing CRUD (Create, Read, Update, Delete) operations on a MySQL database. The purpose of this project is to provide a simple example of how to manage data using PHP and MySQL.
 
 # Prerequisites
 
